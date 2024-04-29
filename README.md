@@ -1,7 +1,7 @@
 ## Sprint 4 Repository for GoalPost
 
 In order to run our app, you can use this link:
-[Appetize.io App Link](https://appetize.io/app/suirkixtf5uvs64dd3bxsxkuki?device=pixel7&osVersion=13.0)
+[Appetize.io App Link](https://appetize.io/app/vcndxgz7ezkqmqrrim2wxw2une)
 
 If the link does not work, follow these steps:
 
