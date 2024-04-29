@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="utsa.cs3773goalpost.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        app:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_goals"
+        android:name="utsa.cs3773goalpost.ui.goals.GoalsFragment"
+        android:label="Goals"
+        app:layout="@layout/fragment_goals" />
+
+    <fragment
+        android:id="@+id/navigation_leaderboard"
+        android:name="utsa.cs3773goalpost.ui.leaderboard.LeaderboardFragment"
+        android:label="Leaderboard"
+        app:layout="@layout/fragment_leaderboard" />
+
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="utsa.cs3773goalpost.ui.more.MoreFragment"
+        android:label="More"
+        app:layout="@layout/fragment_more" />
+</navigation>

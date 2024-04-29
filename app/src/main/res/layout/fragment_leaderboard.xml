@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.goals.GoalsFragment">
+
+    <TextView
+        android:id="@+id/leaderboardTitle"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:text="Goal Leaderboard"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/moreGoals"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="40dp"
+        android:text="Complete # more goals to reach the leaderboard!"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/leaderboardTitle" />
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/leaderboardTitle" />
+
+    <TextView
+        android:id="@+id/goalLabel"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Goals Completed"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/nameLabel"
+        app:layout_constraintTop_toTopOf="@+id/nameLabel" />
+
+    <TextView
+        android:id="@+id/firstLeader"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Name"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameLabel" />
+
+    <TextView
+        android:id="@+id/firstGoalNum"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="28sp"
+        app:layout_constraintStart_toEndOf="@+id/firstLeader"
+        app:layout_constraintTop_toBottomOf="@+id/goalLabel" />
+
+    <TextView
+        android:id="@+id/secondLeader"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Name"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstLeader" />
+
+    <TextView
+        android:id="@+id/secondGoalNum"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="28sp"
+        app:layout_constraintStart_toEndOf="@+id/secondLeader"
+        app:layout_constraintTop_toBottomOf="@+id/firstGoalNum" />
+
+    <TextView
+        android:id="@+id/thirdLeader"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Name"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondLeader" />
+
+    <TextView
+        android:id="@+id/thirdGoalNum"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="28sp"
+        app:layout_constraintStart_toEndOf="@+id/thirdLeader"
+        app:layout_constraintTop_toBottomOf="@+id/secondGoalNum" />
+
+    <TextView
+        android:id="@+id/fourthLeader"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Name"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdLeader" />
+
+    <TextView
+        android:id="@+id/fourthGoalNum"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="28sp"
+        app:layout_constraintStart_toEndOf="@+id/fourthLeader"
+        app:layout_constraintTop_toBottomOf="@+id/thirdGoalNum" />
+
+    <TextView
+        android:id="@+id/fifthLeader"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Name"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fourthLeader" />
+
+    <TextView
+        android:id="@+id/fifthGoalNum"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="28sp"
+        app:layout_constraintStart_toEndOf="@+id/fifthLeader"
+        app:layout_constraintTop_toBottomOf="@+id/fourthGoalNum" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
